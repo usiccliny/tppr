@@ -1,0 +1,235 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\usicc\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\study\\tppr\\MainForm\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7C26B6BA-5C85-40B4-845F-8548400807AC}|VhodControl\\VhodControl.csproj|c:\\users\\usicc\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\study\\tppr\\mainform\\vhodcontrol\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C26B6BA-5C85-40B4-845F-8548400807AC}|VhodControl\\VhodControl.csproj|solutionrelative:vhodcontrol\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C26B6BA-5C85-40B4-845F-8548400807AC}|VhodControl\\VhodControl.csproj|c:\\users\\usicc\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\study\\tppr\\mainform\\vhodcontrol\\senderhttp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C26B6BA-5C85-40B4-845F-8548400807AC}|VhodControl\\VhodControl.csproj|solutionrelative:vhodcontrol\\senderhttp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C26B6BA-5C85-40B4-845F-8548400807AC}|VhodControl\\VhodControl.csproj|c:\\users\\usicc\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\study\\tppr\\mainform\\vhodcontrol\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C26B6BA-5C85-40B4-845F-8548400807AC}|VhodControl\\VhodControl.csproj|solutionrelative:vhodcontrol\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C26B6BA-5C85-40B4-845F-8548400807AC}|VhodControl\\VhodControl.csproj|c:\\users\\usicc\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\study\\tppr\\mainform\\vhodcontrol\\pythoninitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C26B6BA-5C85-40B4-845F-8548400807AC}|VhodControl\\VhodControl.csproj|solutionrelative:vhodcontrol\\pythoninitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C26B6BA-5C85-40B4-845F-8548400807AC}|VhodControl\\VhodControl.csproj|c:\\users\\usicc\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\study\\tppr\\mainform\\vhodcontrol\\generatecolumnsname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C26B6BA-5C85-40B4-845F-8548400807AC}|VhodControl\\VhodControl.csproj|solutionrelative:vhodcontrol\\generatecolumnsname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C26B6BA-5C85-40B4-845F-8548400807AC}|VhodControl\\VhodControl.csproj|c:\\users\\usicc\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\study\\tppr\\mainform\\vhodcontrol\\sqllite\\sqlliteinsert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C26B6BA-5C85-40B4-845F-8548400807AC}|VhodControl\\VhodControl.csproj|solutionrelative:vhodcontrol\\sqllite\\sqlliteinsert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C26B6BA-5C85-40B4-845F-8548400807AC}|VhodControl\\VhodControl.csproj|c:\\users\\usicc\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\study\\tppr\\mainform\\vhodcontrol\\reader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C26B6BA-5C85-40B4-845F-8548400807AC}|VhodControl\\VhodControl.csproj|solutionrelative:vhodcontrol\\reader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C26B6BA-5C85-40B4-845F-8548400807AC}|VhodControl\\VhodControl.csproj|c:\\users\\usicc\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\study\\tppr\\mainform\\vhodcontrol\\model\\column.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C26B6BA-5C85-40B4-845F-8548400807AC}|VhodControl\\VhodControl.csproj|solutionrelative:vhodcontrol\\model\\column.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C26B6BA-5C85-40B4-845F-8548400807AC}|VhodControl\\VhodControl.csproj|c:\\users\\usicc\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\study\\tppr\\mainform\\vhodcontrol\\model\\nonnormalizedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C26B6BA-5C85-40B4-845F-8548400807AC}|VhodControl\\VhodControl.csproj|solutionrelative:vhodcontrol\\model\\nonnormalizedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C26B6BA-5C85-40B4-845F-8548400807AC}|VhodControl\\VhodControl.csproj|c:\\users\\usicc\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\study\\tppr\\mainform\\vhodcontrol\\sqllite\\createtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C26B6BA-5C85-40B4-845F-8548400807AC}|VhodControl\\VhodControl.csproj|solutionrelative:vhodcontrol\\sqllite\\createtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C26B6BA-5C85-40B4-845F-8548400807AC}|VhodControl\\VhodControl.csproj|C:\\Users\\usicc\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\study\\tppr\\MainForm\\vhodcontrol\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7C26B6BA-5C85-40B4-845F-8548400807AC}|VhodControl\\VhodControl.csproj|solutionrelative:vhodcontrol\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 112,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SenderHttp.cs",
+              "DocumentMoniker": "C:\\Users\\usicc\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\study\\tppr\\MainForm\\VhodControl\\SenderHttp.cs",
+              "RelativeDocumentMoniker": "VhodControl\\SenderHttp.cs",
+              "ToolTip": "C:\\Users\\usicc\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\study\\tppr\\MainForm\\VhodControl\\SenderHttp.cs",
+              "RelativeToolTip": "VhodControl\\SenderHttp.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAgwFsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T17:26:42.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NonNormalizeData.cs",
+              "DocumentMoniker": "C:\\Users\\usicc\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\study\\tppr\\MainForm\\VhodControl\\model\\NonNormalizeData.cs",
+              "RelativeDocumentMoniker": "VhodControl\\model\\NonNormalizeData.cs",
+              "ToolTip": "C:\\Users\\usicc\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\study\\tppr\\MainForm\\VhodControl\\model\\NonNormalizeData.cs",
+              "RelativeToolTip": "VhodControl\\model\\NonNormalizeData.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T17:26:23.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SQLliteInsert.cs",
+              "DocumentMoniker": "C:\\Users\\usicc\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\study\\tppr\\MainForm\\VhodControl\\SQLlite\\SQLliteInsert.cs",
+              "RelativeDocumentMoniker": "VhodControl\\SQLlite\\SQLliteInsert.cs",
+              "ToolTip": "C:\\Users\\usicc\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\study\\tppr\\MainForm\\VhodControl\\SQLlite\\SQLliteInsert.cs",
+              "RelativeToolTip": "VhodControl\\SQLlite\\SQLliteInsert.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwB4AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T17:41:20.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Column.cs",
+              "DocumentMoniker": "C:\\Users\\usicc\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\study\\tppr\\MainForm\\VhodControl\\model\\Column.cs",
+              "RelativeDocumentMoniker": "VhodControl\\model\\Column.cs",
+              "ToolTip": "C:\\Users\\usicc\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\study\\tppr\\MainForm\\VhodControl\\model\\Column.cs",
+              "RelativeToolTip": "VhodControl\\model\\Column.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T16:26:20.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Reader.cs",
+              "DocumentMoniker": "C:\\Users\\usicc\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\study\\tppr\\MainForm\\VhodControl\\Reader.cs",
+              "RelativeDocumentMoniker": "VhodControl\\Reader.cs",
+              "ToolTip": "C:\\Users\\usicc\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\study\\tppr\\MainForm\\VhodControl\\Reader.cs",
+              "RelativeToolTip": "VhodControl\\Reader.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAADIAAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T16:14:36.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PythonInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\usicc\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\study\\tppr\\MainForm\\VhodControl\\PythonInitializer.cs",
+              "RelativeDocumentMoniker": "VhodControl\\PythonInitializer.cs",
+              "ToolTip": "C:\\Users\\usicc\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\study\\tppr\\MainForm\\VhodControl\\PythonInitializer.cs",
+              "RelativeToolTip": "VhodControl\\PythonInitializer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T15:05:32.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GenerateColumnsName.cs",
+              "DocumentMoniker": "C:\\Users\\usicc\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\study\\tppr\\MainForm\\VhodControl\\GenerateColumnsName.cs",
+              "RelativeDocumentMoniker": "VhodControl\\GenerateColumnsName.cs",
+              "ToolTip": "C:\\Users\\usicc\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\study\\tppr\\MainForm\\VhodControl\\GenerateColumnsName.cs",
+              "RelativeToolTip": "VhodControl\\GenerateColumnsName.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T16:44:15.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\usicc\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\study\\tppr\\MainForm\\VhodControl\\Form1.cs",
+              "RelativeDocumentMoniker": "VhodControl\\Form1.cs",
+              "ToolTip": "C:\\Users\\usicc\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\study\\tppr\\MainForm\\VhodControl\\Form1.cs",
+              "RelativeToolTip": "VhodControl\\Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T16:36:17.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\usicc\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\study\\tppr\\MainForm\\VhodControl\\Program.cs",
+              "RelativeDocumentMoniker": "VhodControl\\Program.cs",
+              "ToolTip": "C:\\Users\\usicc\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\study\\tppr\\MainForm\\VhodControl\\Program.cs",
+              "RelativeToolTip": "VhodControl\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T16:34:13.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateTable.cs",
+              "DocumentMoniker": "C:\\Users\\usicc\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\study\\tppr\\MainForm\\VhodControl\\SQLlite\\CreateTable.cs",
+              "RelativeDocumentMoniker": "VhodControl\\SQLlite\\CreateTable.cs",
+              "ToolTip": "C:\\Users\\usicc\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\study\\tppr\\MainForm\\VhodControl\\SQLlite\\CreateTable.cs",
+              "RelativeToolTip": "VhodControl\\SQLlite\\CreateTable.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABsAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T15:57:34.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "DocumentMoniker": "C:\\Users\\usicc\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\study\\tppr\\MainForm\\VhodControl\\Form1.cs",
+              "RelativeDocumentMoniker": "VhodControl\\Form1.cs",
+              "ToolTip": "C:\\Users\\usicc\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\study\\tppr\\MainForm\\VhodControl\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "RelativeToolTip": "VhodControl\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T13:25:08.653Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 374,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
