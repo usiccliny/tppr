@@ -3,17 +3,6 @@ import openpyxl
 
 app = Flask(__name__)
 
-key_mapping = {
-    "order_order_date": "Дата и время заказа",
-    "order_customer_name": "Имя клиента, который сделал заказ",
-    "order_quantity": "Количество заказанных булочек",
-    "bun_name": "Название булочки",
-    "bun_price": "Цена булочки",
-    "category_category_name": "Название категории булочек",
-    "ingredient_ingredient_name": "Название ингредиента",
-    "recipe_quantity": "Количество данного ингредиента в рецепте"
-}
-
 @app.route('/create_excel', methods=['POST'])
 def create_excel():
     try:
@@ -27,16 +16,12 @@ def create_excel():
         wb = openpyxl.Workbook()
         ws = wb.active
 
-        headers = [col for col in selected_columns if col in key_mapping.values()]
-        ws.append(headers)
+        ws.append(selected_columns)
 
         for row in rows:
             row_data = []
             for col in selected_columns:
-                for key, value in key_mapping.items():
-                    if value == col:
-                        row_data.append(row.get(key, None))
-                        break
+                row_data.append(row.get(col))
             ws.append(row_data)
 
         file_name = "output.xlsx"

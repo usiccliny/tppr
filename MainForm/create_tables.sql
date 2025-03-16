@@ -1,10 +1,11 @@
-create table if not exists categorie (
+create table if not exists category (
     category_id serial primary key,
-    category_name varchar(255) not null
+    category_name varchar(255) not null,
+    constraint uk_category unique (category_name)
 );
-comment on table categorie is 'Таблица Категории булочек';
-comment on column categorie.category_id is 'Уникальный идентификатор категории';
-comment on column categorie.category_name is 'Название категории булочек';
+comment on table category is 'Таблица Категории булочек';
+comment on column category.category_id is 'Уникальный идентификатор категории';
+comment on column category.category_name is 'Название категории булочек';
 
 create table if not exists bun (
     bun_id serial primary key,
@@ -13,8 +14,9 @@ create table if not exists bun (
     category_id int,
     constraint fk_category
         foreign key (category_id) 
-        references categorie(category_id) 
-        on delete set null
+        references category(category_id) 
+        on delete set null,
+    constraint uk_bun unique (name, price)
 );
 comment on table bun is 'Таблица Булочек';
 comment on column bun.bun_id is 'Уникальный идентификатор булочки';
@@ -24,11 +26,13 @@ comment on column bun.category_id is 'Идентификатор категор�
 
 create table if not exists ingredient (
     ingredient_id serial primary key,
-    ingredient_name varchar(255) not null
+    ingredient_name varchar(255) not null,
+    constraint uk_ingredient unique (ingredient_name)
 );
 comment on table ingredient is 'Таблица Ингредиентов';
 comment on column ingredient.ingredient_id is 'Уникальный идентификатор ингредиента';
 comment on column ingredient.ingredient_name is 'Название ингредиента';
+
 create table if not exists recipe (
     recipe_id serial primary key,
     bun_id int,
@@ -60,7 +64,8 @@ create table if not exists "order" (
     constraint fk_order_bun
         foreign key (bun_id) 
         references bun(bun_id) 
-        on delete cascade
+        on delete cascade,
+    constraint uk_order unique (bun_id, order_date, customer_name, quantity)
 );
 comment on table "order" is 'Таблица Заказов';
 comment on column "order".order_id is 'Уникальный идентификатор заказа';
@@ -68,16 +73,3 @@ comment on column "order".bun_id is 'Идентификатор булочки, 
 comment on column "order".order_date is 'Дата и время заказа';
 comment on column "order".customer_name is 'Имя клиента, который сделал заказ';
 comment on column "order".quantity is 'Количество заказанных булочек';
-
-create table if not exists bun_table (
-    "table" text not null,
-    "column" text not null,
-    data_type text not null,    
-    description text null default null::text,
-    constraint bun_table_unique unique ("table", "column")
-);
-comment on table bun_table is 'Таблица колонок';
-comment on column bun_table."table" is 'Наименование таблицы';
-comment on column bun_table."column" is 'Наименование колонки';
-comment on column bun_table.data_type is 'Тип колонки';
-comment on column bun_table.description is 'Описание колонки';

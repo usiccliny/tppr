@@ -1,5 +1,3 @@
-using VhodControl.SQLlite;
-
 namespace VhodControl
 {
     internal static class Program
@@ -13,13 +11,18 @@ namespace VhodControl
             string exeDirectory = AppDomain.CurrentDomain.BaseDirectory;
 
             string fileName = "bakery_data.db";
+            string PostgresConnectionString = "Host=localhost;Port=5433;Username=postgres;Password=11299133;Database=postgres";
+            string jsonName = "input.json";
 
             string filePath = Path.Combine(exeDirectory, fileName);
+            string jsonPath = Path.Combine(exeDirectory, jsonName);
 
             if (!File.Exists(filePath))
             {
-                var nonNormalizeTable = new CreateTable();
-                nonNormalizeTable.InitiateSQLiteTable();
+                SQLlite sQlite = new SQLlite();
+                sQlite.CreateTable();
+                sQlite.InsertData(jsonPath);
+                sQlite.MigrateData(PostgresConnectionString);
             }
 
             ApplicationConfiguration.Initialize();

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VhodControl")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42c42f2d9fe7230285605b35971ef2ae73bd0d2c")]
 [assembly: System.Reflection.AssemblyProductAttribute("VhodControl")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VhodControl")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

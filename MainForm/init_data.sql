@@ -1,5 +1,5 @@
 -- Вставка данных в таблицу Категории
-insert into categorie (category_name) values
+insert into category (category_name) values
 ('Сладкие'),
 ('Солёные'),
 ('Диетические');
@@ -45,17 +45,3 @@ insert into "order" (bun_id, order_date, customer_name, quantity) values
 (3, current_timestamp, 'Ольга Сидорова', 5),   -- Заказ на 5 макаронов
 (4, current_timestamp, 'Дмитрий Кузнецов', 2), -- Заказ на 2 сэндвича
 (5, current_timestamp, 'Екатерина Волкова', 4); -- Заказ на 4 диетические булочки
-
-insert into bun_table ("table", "column", description, data_type) values
-('order', 'order_date', 'Дата и время заказа', 'DATETIME'),
-('order', 'customer_name', 'Имя клиента, который сделал заказ', 'TEXT'),
-('order', 'quantity', 'Количество заказанных булочек', 'INTEGER'),
-
-('bun', 'name', 'Название булочки', 'TEXT'),
-('bun', 'price', 'Цена булочки', 'REAL'),
-
-('category', 'category_name', 'Название категории булочек', 'TEXT'),
-
-('ingredient', 'ingredient_name', 'Название ингредиента', 'TEXT'),
-
-('recipe', 'quantity', 'Количество данного ингредиента в рецепте', 'REAL');

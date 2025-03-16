@@ -34,3 +34,4 @@ C:\Users\usicc\OneDrive\Рабочий стол\study\tppr\MainForm\VhodControl\
 C:\Users\usicc\OneDrive\Рабочий стол\study\tppr\MainForm\VhodControl\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\usicc\OneDrive\Рабочий стол\study\tppr\MainForm\VhodControl\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\usicc\OneDrive\Рабочий стол\study\tppr\MainForm\VhodControl\bin\Debug\net8.0-windows\Npgsql.dll
+C:\Users\usicc\OneDrive\Рабочий стол\study\tppr\MainForm\VhodControl\obj\Debug\net8.0-windows\VhodControl.sourcelink.json

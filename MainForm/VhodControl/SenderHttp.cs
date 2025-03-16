@@ -1,36 +1,19 @@
 ﻿using Newtonsoft.Json;
+using Npgsql;
 using System;
 using System.Collections.Generic;
 using System.Data.SQLite;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;  // Убедитесь, что вы подключили нужные пространства имен
 using VhodControl.model;
 
 namespace VhodControl
 {
     internal class SenderHttp
     {
-        readonly string dbFileName = "bakery_data.db";
-
-        private List<string> GetSelectedColumnsFromDataGridView(DataGridView dataGridView)
-        {
-            List<string> selectedColumns = new List<string>();
-
-            foreach (DataGridViewRow row in dataGridView.Rows)
-            {
-                if (!row.IsNewRow && row.Cells[1].Value != null && row.Cells[1].Value is bool && (bool)row.Cells[1].Value)
-                {
-                    if (row.Cells[0].Value != null)
-                    {
-                        selectedColumns.Add(row.Cells[0].Value.ToString());
-                    }
-                }
-            }
-
-            return selectedColumns;
-        }
-
         private HttpClient client;
 
         public async void buttonSend_Click(object sender, EventArgs e, DataGridView dataGridView)
@@ -38,35 +21,27 @@ namespace VhodControl
             try
             {
                 client = new HttpClient();
+                var sqlLite = new SQLlite();
+                var postgres = new PostgreSQL();
 
-                Reader reader = new Reader();
-                var columns = reader.ReadColumns();
-                string columnList;
+                var columns = sqlLite.GetSelectedColumns(dataGridView);
 
-                var selectedColumns = GetSelectedColumnsFromDataGridView(dataGridView);
-
-                if (selectedColumns.Count == 0)
+                if (columns.Count == 0)
                 {
                     MessageBox.Show("Выберите хотя бы один столбец для отправки.");
                     return;
                 }
 
-                string selectedEntries = string.Join(", ",
-                                                    columns.Where(c => selectedColumns.Contains(c.description))
-                                                           .Select(c => $"{c.table}_{c.column}")
-                                                           .ToList());
-
-
-                string sqlQuery = $"SELECT {selectedEntries} FROM bakery";
+                string sqlQuery = postgres.GenerateSqlQuery(columns);
 
                 var allData = new List<Dictionary<string, object>>();
 
-                string connectionString = $"Data Source={dbFileName};Version=3;";
-                using (var connection = new SQLiteConnection(connectionString))
+                string PostgresConnectionString = "Host=localhost;Port=5433;Username=postgres;Password=11299133;Database=postgres";
+                using (var connection = new NpgsqlConnection(PostgresConnectionString))
                 {
                     await connection.OpenAsync();
 
-                    using (var command = new SQLiteCommand(sqlQuery, connection))
+                    using (var command = new NpgsqlCommand(sqlQuery, connection))
                     {
                         using (var reader_ = await command.ExecuteReaderAsync())
                         {
@@ -87,11 +62,11 @@ namespace VhodControl
 
                 var requestBody = new
                 {
-                    SelectedColumns = selectedColumns,
+                    SelectedColumns = columns,
                     Rows = allData
                 };
 
-                string json = JsonConvert.SerializeObject(requestBody);
+                string json = JsonConvert.SerializeObject(requestBody, Formatting.Indented);
                 MessageBox.Show("Payload JSON:\n" + json);
 
                 var content = new StringContent(json, Encoding.UTF8, "application/json");
@@ -113,7 +88,5 @@ namespace VhodControl
                 MessageBox.Show($"Произошла ошибка: {ex.Message}");
             }
         }
-
-        
     }
 }

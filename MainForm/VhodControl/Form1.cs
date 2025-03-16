@@ -9,13 +9,12 @@ namespace VhodControl
             pythonInitializer = new PythonInitializer();
             _ = pythonInitializer.RunPythonScriptAsync("shaper1.py");
 
-            var generateColumnsName = new GenerateColumnsName();
+            var sqlLite = new SQLlite();
             var sender = new SenderHttp();
 
             InitializeComponent();
 
-            generateColumnsName.LoadColumnNames(this.dataGridViewColumns);
-            this.dataGridViewColumns.CellClick += (s, e) => generateColumnsName.dataGridViewColumns_CellClick(s, e, this.dataGridViewColumns);
+            sqlLite.GenerateColumnNameForDatagrid(this.dataGridViewColumns);
 
             this.buttonSend.Click += (s, e) => sender.buttonSend_Click(s, e, this.dataGridViewColumns);
 
